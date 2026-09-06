@@ -11,16 +11,32 @@ credentials.json
 
 # Generated pipeline outputs and image assets
 output/
+runs/
+run/
 generated/
 upscaled/
 package/
 packages/
+receipts/
+visual-evidence/
+*.lineage.json
+*.visual.json
+*.receipt.json
+*.evidence.json
+*.adapter.json
+adapter.json
+adapter-config*.json
+provider-config*.json
+qc-config*.json
+*.credentials.json
+*.secret.json
 *.png
 *.jpg
 *.jpeg
 *.webp
 *.csv
 manifest.json
+.stock-tool-*
 
 # Browser, session, and local automation artifacts
 cookies/
