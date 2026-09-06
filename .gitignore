@@ -1,0 +1,42 @@
+# Local environments and credentials
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+
+# Generated pipeline outputs and image assets
+output/
+generated/
+upscaled/
+package/
+packages/
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.csv
+manifest.json
+
+# Browser, session, and local automation artifacts
+cookies/
+profiles/
+sessions/
+browser-data/
+captures/
+screenshots/
+*.har
+
+# Python tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.coverage
+htmlcov/
+dist/
+build/
